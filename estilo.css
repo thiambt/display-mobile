@@ -1,0 +1,81 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+html{
+	height: -webkit-fill-available;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	max-width: 1440px;
+	margin:0 auto;
+	height: 100vh;
+	height: -webkit-fill-available;
+}
+
+.container{
+	padding: 16px;
+
+}
+
+header{
+	background-color: red;
+	color:black;
+}
+
+header p{
+	font-size: 24px;
+}
+
+
+
+
+/*posição de objetos - menu = esquerda, direita, cima e baixo CSS.w3c*/
+#menu{
+	background: red;
+	position: absolute;              
+	top: 8px;
+	right: 16px;
+	font-weight: 700;
+}
+
+
+/*dar cor aos links*/
+a{
+	color: black;
+	text-decoration: none; /*tira underline dos links*/
+	font-weight: bold;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+main{
+	flex:1;
+	overflow: scroll;
+}
+
+main article{
+	margin-bottom: 32px;
+}
+
+main article h1{
+	margin-bottom: 8px;
+}
+
+main article p{
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+footer{
+	background-color: black;
+}
+
+h3{
+	color: #ffff
+}
+
